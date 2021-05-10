@@ -1,0 +1,17 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+#
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ https://nomineeservices.net// [R=301,L]
+RewriteRule ^(.*)index\.php$ https://nomineeservices.net/$1 [R=301,L]
+#редирект из домена с www на домен без www
+RewriteCond %{HTTP_HOST} ^www\.mrt-melit\.net$ [NC]
+RewriteRule ^(.*)$ http://nomineeservices.net/$1 [R=301,L]
+#редирект для удаления "/" в конце адресной строки
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+#редирект на https
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
