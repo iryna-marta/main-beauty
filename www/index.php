@@ -62,7 +62,7 @@
 					<div class="rd-navbar-panel-canvas"></div>
 					<a href="/beauty" class="mobile__logo"></a>
 					<a class="mobile__phone" href="tel:0800215103"><i></i></a>
-					<a href="#" class="button-prime button-link button-size-md button-animation-size mobile__button" role="button">
+					<a href="#section-reception" class="button-prime button-link button-size-md button-animation-size mobile__button" role="button">
 						<span>записаться</span>
 					</a>
 					<button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
@@ -476,7 +476,7 @@
 			<div class="header">				
 				<a href="/beauty" class="header__logo"></a>
 				<a class="header__phone" href="tel:0800215103"><i></i> 0800-215-103</a>
-				<a href="#" class="button-prime button-link button-size-md button-animation-size header__button" role="button">
+				<a href="#section-reception" class="button-prime button-link button-size-md button-animation-size header__button" role="button">
 					<span>записаться</span>
 				</a>
 				<div class="header__soc-btns">
@@ -647,7 +647,7 @@
 				<div class="category-services-box" id="category-1">	<!--begin::Category 1-->	
 					<div class="row">
 						<div class="col-xl-4 col-md-4">
-							<img src="images/category/main-img-1.jpg" class="img-fluid" alt="">
+							<img src="images/category/main-img-1.jpg" class="img-fluid max-img-hight" alt="">
 						</div>
 						<div class="col-xl-8 col-md-8">
 							<a class="category-title menu-link-arrow" data-toggle="collapse" href="#tag-category-1" role="button" aria-controls="tag-category-1" aria-expanded="true">						
@@ -719,7 +719,7 @@
 				<div class="category-services-box" id="category-2">	<!--begin::Category 2-->	
 					<div class="row">
 						<div class="col-xl-4 col-md-4">
-							<img src="images/category/main-img-2.jpg" class="img-fluid" alt="">
+							<img src="images/category/main-img-2.jpg" class="img-fluid max-img-hight" alt="">
 						</div>
 						<div class="col-xl-8 col-md-8">
 							<a class="category-title menu-link-arrow" data-toggle="collapse" href="#tag-category-2" role="button" aria-controls="tag-category-2" aria-expanded="true">						
@@ -750,7 +750,7 @@
 				<div class="category-services-box" id="category-3">	<!--begin::Category 3-->	
 					<div class="row">
 						<div class="col-xl-4 col-md-4">
-							<img src="images/category/main-img-3.jpg" class="img-fluid" alt="">
+							<img src="images/category/main-img-3.jpg" class="img-fluid max-img-hight" alt="">
 						</div>
 						<div class="col-xl-8 col-md-8">
 							<a class="category-title menu-link-arrow" data-toggle="collapse" href="#tag-category-3" role="button" aria-controls="tag-category-3" aria-expanded="true">
@@ -795,7 +795,7 @@
 				<div class="category-services-box" id="category-4">	<!--begin::Category 4-->	
 					<div class="row">
 						<div class="col-xl-4 col-md-4">
-							<img src="images/category/main-img-4.jpg" class="img-fluid" alt="">
+							<img src="images/category/main-img-4.jpg" class="img-fluid max-img-hight" alt="">
 						</div>
 						<div class="col-xl-8 col-md-8">
 							<a class="category-title menu-link-arrow" data-toggle="collapse" href="#tag-category-4" role="button" aria-controls="tag-category-4" aria-expanded="true">						
@@ -826,7 +826,7 @@
 				<div class="category-services-box">		<!--begin::Category 5-->	
 					<div class="row">
 						<div class="col-xl-4 col-md-4">
-							<img src="images/category/main-img-5.jpg" class="img-fluid" alt="">
+							<img src="images/category/main-img-5.jpg" class="img-fluid max-img-hight" alt="">
 						</div>
 						<div class="col-xl-8 col-md-8">
 							<a class="category-title menu-link-arrow" data-toggle="collapse" href="#tag-category-5" role="button" aria-controls="tag-category-5" aria-expanded="true">
@@ -856,7 +856,7 @@
 				<div class="category-services-box" id="category-6">	<!--begin::Category 6-->	
 					<div class="row">
 						<div class="col-xl-4 col-md-4">
-							<img src="images/category/main-img-6.jpg" class="img-fluid" alt="">
+							<img src="images/category/main-img-6.jpg" class="img-fluid max-img-hight" alt="">
 						</div>
 						<div class="col-xl-8 col-md-8">
 							<a class="category-title menu-link-arrow" data-toggle="collapse" href="#tag-category-6" role="button" aria-controls="tag-category-6" aria-expanded="true">
@@ -987,42 +987,42 @@
 			<div class="row cosmetology-types">
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 					<div class="cosmetology-type">
-						<a href="#"><img src="images/category/main-img-9.png" class="img-fluid" alt="">
+						<a href="#"><img src="images/category/main-img-9.png" class="img-fluid max-img-hight" alt="">
 						<h3>ЛАЗЕРНАЯ КОСМЕТОЛОГИЯ</h3>
 						</a>
 					</div>		
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 					<div class="cosmetology-type">
-						<a href="#"><img src="images/category/main-img-8.png" class="img-fluid" alt="">
+						<a href="#"><img src="images/category/main-img-8.png" class="img-fluid max-img-hight" alt="">
 						<h3>ИНЪЕКЦИОННАЯ КОСМЕТОЛОГИЯ</h3>
 						</a>
 					</div>		
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 					<div class="cosmetology-type">
-						<a href="#"><img src="images/category/main-img-11.png" class="img-fluid" alt="">
+						<a href="#"><img src="images/category/main-img-11.png" class="img-fluid max-img-hight" alt="">
 						<h3>АППАРАТНАЯ КОСМЕТОЛОГИЯ</h3>
 						</a>
 					</div>		
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 					<div class="cosmetology-type">
-						<a href="#"><img src="images/category/main-img-10.png" class="img-fluid" alt="">
+						<a href="#"><img src="images/category/main-img-10.png" class="img-fluid max-img-hight" alt="">
 						<h3>КЛАССИЧЕСКАЯ КОСМЕТОЛОГИЯ</h3>
 						</a>
 					</div>		
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 					<div class="cosmetology-type">
-						<a href="#"><img src="images/category/main-img-12.png" class="img-fluid" alt="">
+						<a href="#"><img src="images/category/main-img-12.png" class="img-fluid max-img-hight" alt="">
 						<h3>КОМБИНИРОВАННЫЕ ПРОЦЕДУРЫ</h3>
 						</a>
 					</div>		
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 					<div class="cosmetology-type">
-						<a href="#"><img src="images/category/main-img-13.png" class="img-fluid" alt="">
+						<a href="#"><img src="images/category/main-img-13.png" class="img-fluid max-img-hight" alt="">
 						<h3>ПОДАРОЧНЫЙ СЕРТИФИКАТ</h3>
 						</a>
 					</div>		
@@ -1149,11 +1149,48 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-				<a href="/services/#" class="services__item">
-				<i class="services__ico inyektsii"></i>
-				<div class="services__name"><span>Устранение мимических морщин, ботулинотерапия</span></div>
-				</a>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">				
+					<a href="/services/#" class="services__item inyektsii">
+						<i class="services__ico"></i>
+						<div class="services__name">Устранение мимических морщин, ботулинотерапия</div>
+					</a>				
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">				
+					<a href="/services/#" class="services__item laser">
+						<i class="services__ico"></i>
+						<div class="services__name">Лазерная Эпиляция</div>
+					</a>				
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">				
+					<a href="/services/#" class="services__item laser">
+						<i class="services__ico"></i>
+						<div class="services__name">Комплексное лазерное 4D омоложение</div>
+					</a>				
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">				
+					<a href="/services/#" class="services__item apparat">
+						<i class="services__ico"></i>
+						<div class="services__name">Радиоволновое удаление новообразований</div>
+					</a>				
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">				
+					<a href="/services/#" class="services__item classic">
+						<i class="services__ico"></i>
+						<div class="services__name">Базовый уход</div>
+					</a>				
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">				
+					<a href="/services/#" class="services__item comby">
+						<i class="services__ico"></i>
+						<div class="services__name">Лечение угревой болезни</div>
+					</a>				
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="button-more__footer">
+						<a href="#" class="button-white button-link button-size-xl button-size-fluid button-animation-size" role="button"><span>Все услуги</span></a>
+					</div>		
 				</div>
 			</div>      					
 		</div>
@@ -1165,8 +1202,25 @@
 					<h2>Присоединяйтесь к нам</h2>
 				</div>
 			</div>
-			<div class="row">
-			</div>      					
+		</div>
+		<div class="section--rose soc-links-section">
+			<div class="container">
+				<div class="row">	                
+	                <div class="col-lg-6 col-md-7 col-sm-12 text-center order-lg-1 order-md-1 order-sm-2 order-2">
+	                    <div class="soc-links-wrap">
+	                        <p>Cледите за работами наших специалистов и больше никогда не упускайте beauty новинки и крутые акции</p>
+	                        <ul class="soc-links">
+	                            <li><a class="soc-links-item icon-facebook" href="https://www.facebook.com/Medicum-Beauty-Днепр-106530917939673/?modal=admin_todo_tour" target="_blank" rel="noopener"><span>подписаться</span></a></li>
+	                            <li><a class="soc-links-item icon-instagram" href="https://www.instagram.com/medicum_beauty/" rel="noopener" target="_blank"><span>подписаться</span></a></li>
+	                            <!-- <li><a class="soc-links-item icon-youtube" href="#" target="_blank"></a></li>-->
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="col-lg-6 col-md-5 col-sm-12 order-lg-2 order-md-2 order-sm-1 order-1">	                    
+	                     <img class="" src="../images/soc-img.png" class="img-fluid" alt="">	                    
+	                </div>
+	            </div>     					
+			</div>
 		</div>
 	</section>
 	<section class="section--padding">				
@@ -1177,9 +1231,79 @@
 				</div>
 			</div>
 			<div class="row">
+				<div class="col no-padding">
+					<div class="publications-slider slick-slider  slick-slider-my-arrow">
+						<div class="publications-item">
+							<a href="#">
+							<div class="link-arrow">
+								<img src="images/publications/publications-1-400.jpg" class="img-fluid" alt="Как избавиться от прыщей навсегда">
+							</div>
+							<h4>Как избавиться от прыщей навсегда?</h4>							
+							</a>
+			            </div>
+			            <div class="publications-item">
+							<a href="#">
+							<div class="link-arrow">
+								<img src="images/publications/publications-1-400.jpg" class="img-fluid" alt="Как избавиться от прыщей навсегда">
+							</div>
+							<h4>Как избавиться от прыщей навсегда?</h4>							
+							</a>
+			            </div>
+			            <div class="publications-item">
+							<a href="#">
+							<div class="link-arrow">
+								<img src="images/publications/publications-1-400.jpg" class="img-fluid" alt="Как избавиться от прыщей навсегда">
+							</div>
+							<h4>Как избавиться от прыщей навсегда?</h4>							
+							</a>
+			            </div>
+			            <div class="publications-item">
+							<a href="#">
+							<div class="link-arrow">
+								<img src="images/publications/publications-1-400.jpg" class="img-fluid" alt="Как избавиться от прыщей навсегда">
+							</div>
+							<h4>Как избавиться от прыщей навсегда?</h4>							
+							</a>
+			            </div>
+					</div>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="button-more__footer">
+						<a href="#" class="button-white button-link button-size-xl button-size-fluid button-animation-size" role="button"><span>Все публикации</span></a>
+					</div>		
+				</div>
 			</div>      					
 		</div>
-	</section>			
+	</section>
+	<section class="section-reception parallax-background" id="section-reception">				
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="align-self-end">
+					<div class="glass-background ">
+						<div class="title-form">Записаться на прием</div>      
+						<form id="reception" method="POST" action="" class="reception-form">
+						
+                            <div class="form-label-group">
+				                <input type="text" id="receptionName" class="form-control" placeholder="Ваше имя" required="" autofocus="">
+				                <label for="receptionName">Ваше имя</label>
+				             </div>
+				             <div class="form-label-group">
+				                <input type="text" id="receptionPhone" class="form-control" placeholder="Телефон" required="" autofocus="">
+				                <label for="receptionPhone">Телефон</label>
+				             </div>                            
+                            <div class="form-label-group">
+                                <button class="button-prime button-link button-size-form" type="submit"><span>запишите меня</span></button>					
+                            </div>                        
+                    		<div class="form-result"></div>
+                    		
+                		</form>
+                	</div>
+				</div>			
+			</div>			    					
+		</div>
+	</section>				
 </main>	
 <!--
    		-->		
@@ -1187,105 +1311,89 @@
 	<div class="ftr-middle">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<ul class="contact-information style-gray-dark">
-						<li class="style_strong">Клиника эстетической медицины</li>
+				<div class="col-md-3">
+					<ul class="contact-information">
+						<li class="h5">Звоните нам</li>										
+						<li><a class="inner-link-effect" href="tel:0800215103">0800-215-103</a></li>
+					</ul>					
+				</div>
+				<div class="col-md-3">
+					<ul class="contact-information">
+						<li class="h5">Приходите к нам</li>
 						<li>пр. Д. Яворницкого, 59, площадь Героев Майдана</li>
-						<li>
-							<ul class="timetable">
-								<li>
-									<p>Пн-Пт:&nbsp;
-										<span class="working-time">08.00 — 20.00</span></p></li>
-								<li>
-									<p>Сб:&nbsp;
-										<span class="working-time">09.00 — 17.00</span></p></li>
-								<li>
-									<p>Вс:&nbsp;
-										<span class="working-time">Выходной</span></p></li>
-							</ul>
-						</li>
-						<li class="style_strong">0-800-215-103</li>
-					</ul>
-					<ul class="soc-links">
-						<li>
-							<a class="soc-links-item icon-facebook" rel="noopener" href="https://www.facebook.com/Medicum-Beauty-Днепр-106530917939673/?modal=admin_todo_tour" target="_blank"></a></li>
-						<li>
-							<a class="soc-links-item icon-instagram" rel="noopener" href="https://www.instagram.com/medicum_beauty/" target="_blank"></a></li>
-						<!-- <li><a class="soc-links-item icon-youtube" href="#" target="_blank"></a></li>-->
+						<li><p class="small">Пн-Пт:&nbsp;<span class="working-time">08.00 — 20.00</span></p></li>
+						<li><p class="small">Сб:&nbsp;<span class="working-time">09.00 — 17.00</span></p></li>
+						<li><p class="small">Вс:&nbsp;<span class="working-time">Выходной</span></p></li>
 					</ul>
 				</div>
-				<div class="col-md-4">
-					<ul class="contact-information style-gray-dark">
-						<li class="style_strong">Медицинский центр</li>
-						<li>пр. Д. Яворницкого, 59, площадь Героев Майдана</li>
-						<li>
-							<ul class="timetable">
-								<li>
-									<p>Пн-Пт:&nbsp;
-										<span class="working-time">08.00 — 20.00</span></p></li>
-								<li>
-									<p>Сб:&nbsp;
-										<span class="working-time">09.00 — 17.00</span></p></li>
-								<li>
-									<p>Вс:&nbsp;
-										<span class="working-time">Выходной</span></p></li>
-							</ul>
-						</li>
-						<li class="style_strong">0-800-212-103</li>
+				<div class="col-md-3">
+					<ul class="contact-information">
+						<li class="h5">Дружите с нами</li>						
+						<li class="footer-soc-btns">
+							<a class="soc-btns-item icon-facebook" rel="noopener" href="https://www.facebook.com/Medicum-Beauty-Днепр-106530917939673/?modal=admin_todo_tour" target="_blank"></a>
+							<a class="soc-btns-item icon-instagram" rel="noopener" href="https://www.instagram.com/medicum_beauty/" target="_blank"></a>
+						</li>						
 					</ul>
 				</div>
-				<div class="col-md-4">
-					<ul class="contact-information style-gray-dark">
-						<li class="style_strong">Диагностический центр</li>
-						<li>ул. Ломаная, 4</li>
-						<li>
-							<ul class="timetable">
-								<li>
-									<p>Пн-Пт:&nbsp;
-										<span class="working-time">09.00 — 19.00</span></p></li>
-								<li>
-									<p>Сб:&nbsp;
-										<span class="working-time">Выходной</span></p></li>
-								<li>
-									<p>Вс:&nbsp;
-										<span class="working-time">Выходной</span></p></li>
-							</ul>
-						</li>
-						<li class="style_strong">0-800-212-103</li>
-						</ul>						
-							<a href="contacts.php" class="inner-link-effect">
-								<span>Написать администрации</span></a>
+				<div class="col-md-3">
+					<ul class="contact-information">
+						<li class="h5">Пишите нам</li>						
+						<li><a href="contacts.php" class="inner-link-effect"><span>Написать администрации</span></a></li>
+					</ul>
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<div class="ftr-bottom">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-12">
-					<div class="copyright">© 2010-
-						<span id="copyright-year">2021</span>&nbsp;&nbsp; Медицинские центры medicum.com.ua</div>
-				</div>
-				<div class="col-md-2 d-none d-md-block">
-					<div class="dropdown dropup">
-						<a class="dropdown-toggle" href="#" id="licencesList" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Лицензии</a>
-						<div class="dropdown-menu licencesList" aria-labelledby="licencesList">
-							<p>МОЗ Украины серия АЕ №459238 от 23.07.14г.</p>
-							<p>МОЗ Украины серия АД №071319 от 18.10.12г.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 d-none d-md-block">
-					<a href="politika-konfidentsialnosti.php">Политика конфиденциальности</a>
-				</div>
-				<div class="col-md-3 d-none d-md-block">
-					<a href="privacy-policy.php" class="f-footer-link">Пользовательское соглашение</a>
+				<div class="col">
+					<div class="copyright">© 2020-
+						<span id="copyright-year">2021</span>&nbsp;&nbsp; Клиника эстетической медицины medicum.com.ua/beauty</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </footer>
+<div class="fixed_block fixed_block-left">
+	<button title="Запрос обратного звонка" class="flip-btn btn-callback" id="btn-callback" data-toggle="modal" data-target="#ModalCallBack"><span class="flip-btn__front"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#ffffff"><path d="M 13.216,8.064C 12.834,3.67, 8.25,1.514, 8.056,1.426C 7.874,1.34, 7.67,1.314, 7.474,1.348 c-5.292,0.878-6.088,3.958-6.12,4.086C 1.31,5.614, 1.318,5.8, 1.374,5.974c 6.312,19.584, 19.43,23.214, 23.742,24.408 c 0.332,0.092, 0.606,0.166, 0.814,0.234c 0.1,0.034, 0.204,0.048, 0.308,0.048c 0.142,0, 0.284-0.030, 0.414-0.090 c 0.132-0.060, 3.248-1.528, 4.010-6.316c 0.034-0.208,0-0.424-0.096-0.612c-0.068-0.132-1.698-3.234-6.218-4.33 c-0.316-0.082-0.64,0.002-0.884,0.21c-1.426,1.218-3.396,2.516-4.246,2.65c-5.698-2.786-8.88-8.132-9-9.146 C 10.148,12.46, 11.454,10.458, 12.956,8.83C 13.146,8.624, 13.242,8.344, 13.216,8.064z"></path></svg></span> <span class="flip-btn__back">Заказать звонок</span></button>
+</div>
+<!-- Modal window  -->	
+<div class="modal modal-beauty fade" id="ModalCallBack"><!-- window ModalCallBack -->	
+    <div class="modal-dialog modal-dialog-centered">
+       <div class="modal-content">
+          <div class="modal-header">
+          	<button class="close" type="button" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
+          </div> 
+          <div class="modal-body">
+          	<div class="container-fluid">
+		      	<div class="row">
+		      		<div class="col-12">
+            			<h3 class="reception-title">Заказать звонок</h3>
+            		</div>
+            	</div>
+        		<div class="row">
+        			<form id="callback" method="POST" action="">
+					
+                        <div class="form-label-group">
+			                <input type="text" id="callbackName" class="form-control" placeholder="Ваше имя" required="" autofocus="">
+			                <label for="callbackName">Ваше имя</label>
+			             </div>
+			             <div class="form-label-group">
+			                <input type="text" id="callbackPhone" class="form-control" placeholder="Телефон" required="" autofocus="">
+			                <label for="callbackPhone">Телефон</label>
+			             </div>                            
+                        <div class="form-label-group">
+                            <button class="button-prime button-link button-size-max" type="submit"><span>отправить</span></button>					
+                        </div>                        
+                		<div class="form-result"></div>                    		
+            		</form>
+            	</div>		                      
+            </div>
+        </div>                 
+    </div>
+  </div>
+</div><!-- window CallBack end -->
 <?php include "ico-svg.php"; ?> 
 
 <link rel="stylesheet" href="css/animate.css">

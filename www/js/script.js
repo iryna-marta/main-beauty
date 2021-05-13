@@ -284,6 +284,35 @@ $(document).ready(function () {
       }
     }]
   }); 
+   $('.publications-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows:  true,	    
+	dots: false,
+    infinite: true,
+    loop: true,
+    autoplay: true,
+    speed: 400,
+    pauseOnHover: true,
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3
+      }
+    }, {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        arrows: false,
+      }
+    }, {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+      }
+    }]
+  });
 });
 /**
 * lightGallery
