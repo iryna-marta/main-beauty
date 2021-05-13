@@ -1780,7 +1780,7 @@ a.tag-title:hover{
 }
 .form-result{
 	color: #652B3A;
-	box-shadow: 0 0 100000px 100000px rgba(255, 255, 255, 0.7) inset;
+	/*box-shadow: 0 0 100000px 100000px rgba(255, 255, 255, 0.7) inset;*/
 	padding: 4px 2px;
 	text-align: center;
 }
