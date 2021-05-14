@@ -67,15 +67,19 @@
 					</a>
 					<button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
 						<span></span></button>
+						<div class="container position-relative-992">
 						<div class="search-wrap">
 							<div id="sb-search" class="sb-search"><!-- Expanding Search Bar -->
 								<form method="post" role="form" action="">
 									<input class="sb-search-input" placeholder="Поисковый запрос ..." type="search" value=" " name="search" id="search">
 									<input class="sb-search-submit" type="submit" value=" ">
 									<span class="sb-icon-search"> </span>
-									<div class="form-search-result"></div>
+									<div class="form-result d-none">
+										<p>Введите поисковый запрос</p>
+									</div>
 								</form>
 							</div>
+						</div>
 						</div>
 				</div>
 				<div class="rd-navbar-outer">
@@ -471,6 +475,7 @@
 		</div>
 		<!-- END Navbar -->
 		<div class="header-wrap">
+		<div class="container">
 			<div class="header">				
 				<a href="/beauty" class="header__logo"></a>
 				<a class="header__phone" href="tel:0800215103"><i></i> 0800-215-103</a>
@@ -482,6 +487,7 @@
 					<a class="soc-btns-item icon-instagram" rel="noopener" href="https://www.instagram.com/medicum_beauty/" target="_blank"></a>
 				</div>							
 			</div>
+		</div>
 		</div>
 		<div class="header__categories-wrap">
 			<div class="container-header__categories">
@@ -610,8 +616,9 @@
 				</div>
 			</div>
 		</section><!-- main-banner -->
-		<div class="promotions-wrap">
-			<div class="promotions">						
+		<div class="promotions-wrap">			
+			<div class="promotions">
+			<div class="container">						
 				<a class="promotions-title collapsed menu-link-arrow" data-toggle="collapse" href="#promotions-list" role="button" aria-expanded="false" aria-controls="promotions-list">						
 					<span class="menu-icon">
 						<!--begin::Svg Icon-->
@@ -632,7 +639,7 @@
 						<li><a href="#" class="" rel="">Подарочные сертификаты</a></li>
 					</ul>
 				</div>
-													
+			</div>										
 		</div>		        
 	</div>
 	<section class="section--padding-top">				
@@ -1284,11 +1291,11 @@
 						<form id="reception" method="POST" action="" class="reception-form">
 						
                             <div class="form-label-group">
-				                <input type="text" id="receptionName" class="form-control" placeholder="Ваше имя">
+				                <input type="text" id="receptionName" class="form-control" placeholder="Ваше имя" required="" autofocus="">
 				                <label for="receptionName">Ваше имя</label>
 				             </div>
 				             <div class="form-label-group">
-				                <input type="text" id="receptionPhone" class="form-control" placeholder="Телефон">
+				                <input type="text" id="receptionPhone" class="form-control" placeholder="Телефон" required="" autofocus="">
 				                <label for="receptionPhone">Телефон</label>
 				             </div>                            
                             <div class="form-label-group">
@@ -1373,11 +1380,11 @@
         		<div class="row">
         			<form id="callback" method="POST" action="">					
                         <div class="form-label-group">
-			                <input type="text" id="callbackName" class="form-control" placeholder="Ваше имя" required="" autofocus="">
+			                <input type="text" id="callbackName" class="form-control" placeholder="Ваше имя">
 			                <label for="callbackName">Имя</label>
 			             </div>
 			             <div class="form-label-group">
-			                <input type="text" id="callbackPhone" class="form-control" placeholder="Телефон" required="" autofocus="">
+			                <input type="text" id="callbackPhone" class="form-control" placeholder="Телефон">
 			                <label for="callbackPhone">Телефон</label>
 			             </div>                            
                         <div class="form-label-group">
@@ -1391,7 +1398,7 @@
     </div>
   </div>
 </div><!-- window CallBack end -->
-<!-- <?php include "ico-svg.php"; ?>  -->
+<!--<?php include "ico-svg.php"; ?> -->
 <svg id="glyphs-sheet" xmlns="http://www.w3.org/2000/svg">
 <defs>
 	<symbol id="ico-age" class="glyph-svg" viewBox="0 0 4233 4233">
@@ -1439,6 +1446,7 @@
 </symbol>
 </defs>
 </svg>
+
 
 
 <link rel="stylesheet" href="css/animate.css">
