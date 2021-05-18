@@ -379,12 +379,12 @@
   cursor: pointer;
   
 }
-.rd-navbar-fixed .rd-navbar-submenu-toggle:before {
+.rd-navbar-fixed .rd-navbar-submenu .rd-navbar-submenu-toggle:before {
 	width: 0;
 	height: 0;
 	vertical-align: middle;
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: -10px;
 	content: "";
 	border-top: .4em solid;
 	border-right: .4em solid transparent;
@@ -395,64 +395,18 @@
 .rd-navbar-fixed .rd-navbar-submenu-toggle:hover {
   	background-color: #E7BABE;
 }
-
-/*
-* @subsection   RD Navbar Brand
-*
-* @description  Describes style declarations for RD Navbar brand
-*/
-.rd-navbar-brand {
-  display: none;
-  color: #333;
+.rd-navbar-fixed .rd-navbar-submenu.opened > .rd-navbar-submenu-toggle::before {
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -10px;
+    content: "";
+    border-top: 0;
+    border-right: .4em solid transparent;
+    border-bottom: .4em solid;
+    border-left: .4em solid transparent;
 }
-
-.rd-navbar-static .rd-navbar-brand {
-  display: inline-block;
-  float: left;
-}
-
-.rd-navbar-static .rd-navbar-brand > * {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.rd-navbar-static .rd-navbar-brand > img {
-  margin-right: 10px;
-}
-
-.rd-navbar-static .rd-navbar-brand > a {
-  font-size: 36px;
-  line-height: 48px;
-}
-
-.rd-navbar-static .rd-navbar-brand > a span {
-  display: none;
-}
-
-.rd-navbar-fixed .rd-navbar-brand {
-  display: block;
-  text-align: left;
-  position: fixed;
-  top: 4px;
-  left: 56px;
-  right: 112px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 22px;
-  line-height: 46px;
-  height: 48px;
-  z-index: 17;
-}
-
-.rd-navbar-fixed .rd-navbar-brand img {
-  display: none;
-}
-
-.rd-navbar-fixed .rd-navbar-brand a {
-  display: inline-block;
-}
-
 /*
 * @subsection   RD Navbar Toggles
 *
